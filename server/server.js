@@ -21,6 +21,6 @@ productRouter.use("/", function (request, response) {
 
 app.use("/notes", productRouter);
 app.use("/", function (request, response) {
-    response.send("Главная страница"); 
+    response.send("Главная страница");
 });
 app.listen(3000);
